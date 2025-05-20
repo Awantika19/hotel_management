@@ -18,28 +18,16 @@
         @include('home.header')
       <!-- end header inner -->
       <!-- end header -->
-      <!-- banner -->
-     @include('home.slider')
-      <!-- end banner -->
-      <!-- about -->
-     @include('home.about')
-      <!-- end about -->
-      <!-- our_room -->
-     @include('home.room')
-      <!-- end our_room -->
+   
       <!-- gallery -->
      @include('home.gallery')
       <!-- end gallery -->
     
-     
-      <!--  contact -->
-    @include('home.contact')
-      <!-- end contact -->
+    
       <!--  footer -->
      @include('home.footer')
       <!-- end footer -->
       <!-- Javascript files-->
-
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
@@ -57,5 +45,7 @@
             }
          });
       </script>
+
+      
    </body>
 </html>

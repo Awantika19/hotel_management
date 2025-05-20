@@ -15,6 +15,6 @@ class Admin
             return $next($request);
         }
 
-        abort(403, 'Unauthorized'); // 403 is better than 401 for this case
+        return redirect('/');
     }
 }

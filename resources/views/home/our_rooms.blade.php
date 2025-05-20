@@ -19,21 +19,19 @@
       <!-- end header inner -->
       <!-- end header -->
       <!-- banner -->
-     @include('home.slider')
+   
       <!-- end banner -->
       <!-- about -->
-     @include('home.about')
+     
       <!-- end about -->
       <!-- our_room -->
      @include('home.room')
       <!-- end our_room -->
       <!-- gallery -->
-     @include('home.gallery')
-      <!-- end gallery -->
     
+      <!-- end gallery -->
      
       <!--  contact -->
-    @include('home.contact')
       <!-- end contact -->
       <!--  footer -->
      @include('home.footer')
@@ -47,15 +45,7 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
 
-      <script type="text/javascript">
-         $(window).scroll(function(){
-            sessionStorage.scrollTop=$(this).scrollTop();
-         });
-         $(document).ready(function(){
-            if(sessionStorage.scrollTop != "undefined"){
-               $(window).scrollTop(sessionStorage.scrollTop);
-            }
-         });
-      </script>
+      
+    
    </body>
 </html>

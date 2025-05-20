@@ -21,20 +21,16 @@
                       <li class="nav-item active">
                          <a class="nav-link" href="{{ url('/') }}">Home</a>
                       </li>
+                     
                       <li class="nav-item">
-                         <a class="nav-link" href="about.html">About</a>
+                         <a class="nav-link" href="{{ 'our_rooms' }}">Our room</a>
                       </li>
                       <li class="nav-item">
-                         <a class="nav-link" href="room.html">Our room</a>
+                         <a class="nav-link" href="{{ url('hotel_gallary') }}">Gallery</a>
                       </li>
+                     
                       <li class="nav-item">
-                         <a class="nav-link" href="gallery.html">Gallery</a>
-                      </li>
-                      <li class="nav-item">
-                         <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                         <a class="nav-link" href="contact.html">Contact Us</a>
+                         <a class="nav-link" href="{{ url('contact_us') }}">Contact Us</a>
                       </li>
 
 
